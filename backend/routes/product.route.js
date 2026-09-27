@@ -5,8 +5,8 @@ import { createProducts,getProducts,updateProducts,deleteProducts } from "../con
 const router =express.Router();
 
 router.get("/",getProducts);
-router.get("/",createProducts);
-router.get("/:id",updateProducts);
-router.get("/:id",deleteProducts);
+router.post("/",createProducts);
+router.put("/:id",updateProducts);
+router.delete("/:id",deleteProducts);
 
 export default router;

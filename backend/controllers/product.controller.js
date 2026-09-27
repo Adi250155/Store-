@@ -13,7 +13,7 @@ const getProducts = async(req,res) => {
 }
 const createProducts = async(req,res) => {
     const product=req.body
-    if(!product.name || product.price===undefined || !prroduct.image){
+    if(!product.name || product.price===undefined || !product.image){
         return res.status(400).json({
 			success: false,
 			message: "Please provide all fields",
