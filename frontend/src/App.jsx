@@ -1,11 +1,11 @@
-import { Button, HStack } from "@chakra-ui/react";
+import { Box, Button, HStack } from "@chakra-ui/react";
 
 function App() {
   return (
-    <HStack>
-      <Button>Click me</Button>
-      <Button>Chakra Works!</Button>
-    </HStack>
+    <Box minH={"100vh"}>
+      //navbar
+
+    </Box>
   );
 }
 
